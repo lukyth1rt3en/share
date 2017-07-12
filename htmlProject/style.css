@@ -1,0 +1,90 @@
+.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+.NavLi {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.centered {
+  text-align: center;
+  padding: 1px;
+}
+
+#background {
+  background-color: yellow;
+}
+
+#contact {
+  background-color: orange;
+}
+
+body {
+  font-family:fantasy;
+  height: 100%;
+}
+
+.form {
+  background-color: white;
+  width: 250px;
+  border-style: double;
+  margin: auto;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 25%;
+}
+
+table {
+  margin: auto;
+  padding-top: 3px;
+  display: table;
+  border-spacing: 2px;
+}
+
+td a {
+  border-style: solid;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 14px 16px;
+  list-style-type: none;
+}
+
+#footerA {
+  display: block;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  width: 240px;
+  border-style: solid;
+  border-color: white;
+}
